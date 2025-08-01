@@ -1,16 +1,22 @@
-#RAG Workflow with LangChain, Groq API, and FAISS
+## RAG Workflow with LangChain, Groq API, and FAISS
 🧠 Overview
 This project demonstrates how to build a Retrieval-Augmented Generation (RAG) system using:
 
 🧱 LangChain for data loading, processing, and chaining
+
 🧠 Groq API as the LLM backend
+
 🧠 FAISS for vector-based semantic search
+
 🌐 BeautifulSoup + WebBaseLoader to scrape content from websites
 
 🎯 Objectives
 Use LangChain to load and split data from the web
+
 Convert text into embeddings using Hugging Face models
+
 Store those embeddings in FAISS, a fast vector store
+
 Query the data using RetrievalQA with a Groq-powered LLM
 
 🛠️ Setup Instructions
@@ -110,5 +116,4 @@ Hugging Face Embeddings Guide
 📌 Author
 Dania Amin
 Assignment for Agentic AI Project — RAG Pipeline with Groq + LangChain
-
 
